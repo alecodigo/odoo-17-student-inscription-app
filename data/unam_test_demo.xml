@@ -353,9 +353,7 @@
         <field name="name">Lucía Martínez</field>
         <field name="is_professor" eval="1"/>
         <field name="date_birth">1985-11-20</field>
-        <field name="subject_ids" eval="[[(4, ref('unam_test.subjet_physics_1')), 
-        (4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_quimica_gen')),
-        (4, ref('unam_test.subjet_geo_analitica'))]]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_quimica_gen')), (4, ref('unam_test.subjet_geo_analitica'))]"/>
     </record>
     <record id="demo_professor_6" model="res.partner">
         <field name="name">Christopher White</field>
