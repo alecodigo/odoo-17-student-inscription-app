@@ -297,6 +297,10 @@
     <!-- courses -->
     <record id="course_1" model="product.template">
         <field name="name">Ingeniería - Primer Semestre</field>
+        <field name="is_course" eval="1"/>
+        <field name="date_start">2024-10-9</field>
+        <field name="duration">60</field>
+        <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_5'))]"/>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), 
         (4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_quimica_gen')),
@@ -304,21 +308,37 @@
     </record>
     <record id="course_2" model="product.template">
         <field name="name">Física - Primer Semestre</field>
+        <field name="is_course" eval="1"/>
+        <field name="date_start">2024-10-9</field>
+        <field name="duration">60</field>
+        <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_4'))]"/>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_math_1'))]"/>
     </record>
     <record id="course_3" model="product.template">
         <field name="name">Matemática - Primer Semestre</field>
+        <field name="is_course" eval="1"/>
+        <field name="date_start">2024-10-9</field>
+        <field name="duration">60</field>
+        <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_10')), (4, ref('unam_test.demo_professor_2'))]"/>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_2')), (4, ref('unam_test.subjet_geo_analitica'))]"/>
     </record>
     <record id="course_4" model="product.template">
         <field name="name">Ingeniería - Segundo Semestre</field>
+        <field name="is_course" eval="1"/>
+        <field name="date_start">2024-10-9</field>
+        <field name="duration">60</field>
+        <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_10')), (4, ref('unam_test.demo_professor_3'))]"/>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_2')), (4, ref('unam_test.subjet_physics_2'))]"/>
     </record>
     <record id="course_5" model="product.template">
-        <field name="name">Ingeniería - Tercer Semestre</field> 
+        <field name="name">Ingeniería - Tercer Semestre</field>
+        <field name="is_course" eval="1"/>
+        <field name="date_start">2024-10-9</field>
+        <field name="duration">60</field>
+        <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_8')), (4, ref('unam_test.demo_professor_10'))]"/>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_3')), (4, ref('unam_test.subjet_physics_3')), 
         (4, ref('unam_test.subjet_ecu_dife'))]"/>
@@ -326,64 +346,34 @@
 
     <!-- Updating professors -->
     <record id="demo_professor_1" model="res.partner">
-        <field name="name">Carlos Martínez</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1985-11-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_math_1'))]"/>
     </record>
     <record id="demo_professor_2" model="res.partner">
-        <field name="name">Victoria Williams</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1985-11-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_geo_analitica'))]"/>
     </record>
     <record id="demo_professor_3" model="res.partner">
-        <field name="name">Santiago Ramírez</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1965-10-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_physics_2'))]"/>
     </record>
     <record id="demo_professor_4" model="res.partner">
-        <field name="name">Emma Scott</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1975-9-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_stadi')), (4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_math_1'))]"/>
     </record>
     <record id="demo_professor_5" model="res.partner">
-        <field name="name">Lucía Martínez</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1985-11-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_quimica_gen')), (4, ref('unam_test.subjet_geo_analitica'))]"/>
     </record>
     <record id="demo_professor_6" model="res.partner">
-        <field name="name">Christopher White</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1985-11-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_transfor_inte'))]"/>
     </record>
     <record id="demo_professor_7" model="res.partner">
-        <field name="name">Juliana Pérez</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1985-11-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1'))]"/>
     </record>
     <record id="demo_professor_8" model="res.partner">
-        <field name="name">Matthew Harris</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1985-11-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_ecu_dife')), 
         (4, ref('unam_test.subjet_math_1'))]"/>
     </record>
     <record id="demo_professor_9" model="res.partner">
-        <field name="name">Pablo Torres</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1965-11-20</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_quimica_gen'))]"/>
     </record>
     <record id="demo_professor_10" model="res.partner">
-        <field name="name">Sophia Moore</field>
-        <field name="is_professor" eval="1"/>
-        <field name="date_birth">1958-8-9</field>
         <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_2')), (4, ref('unam_test.subjet_math_3'))]"/>
     </record>
 
@@ -433,25 +423,25 @@
     <record id="student_inscription_8" model="student.inscription">
         <field name="student_id" ref="unam_test.demo_student_8"/> 
         <field name="course_id" ref="unam_test.course_3"/>
-        <field name="enrollment_date">2024-1-20</field>
+        <field name="enrollment_date">2024-9-20</field>
         <field name="state">waiting</field>
     </record>
     <record id="student_inscription_9" model="student.inscription">
         <field name="student_id" ref="unam_test.demo_student_9"/> 
         <field name="course_id" ref="unam_test.course_4"/>
-        <field name="enrollment_date">2024-1-20</field>
+        <field name="enrollment_date">2024-9-10</field>
         <field name="state">waiting</field>
     </record>
     <record id="student_inscription_10" model="student.inscription">
         <field name="student_id" ref="unam_test.demo_student_10"/> 
         <field name="course_id" ref="unam_test.course_5"/>
-        <field name="enrollment_date">2023-9-10</field>
+        <field name="enrollment_date">2024-9-11</field>
         <field name="state">confirmed</field>
     </record>
     <record id="student_inscription_11" model="student.inscription">
         <field name="student_id" ref="unam_test.demo_student_11"/> 
         <field name="course_id" ref="unam_test.course_5"/>
-        <field name="enrollment_date">2023-9-10</field>
+        <field name="enrollment_date">2024-9-12</field>
         <field name="state">confirmed</field>
     </record>
 </odoo>

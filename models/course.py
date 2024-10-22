@@ -12,3 +12,4 @@ class Curso(models.Model):
     date_start = fields.Date(string='Start date')
     duration = fields.Integer(string='Duration (days)')
     max_capacity = fields.Integer(string='maximum capacity')
+    is_course = fields.Boolean(string="Is a course?")
