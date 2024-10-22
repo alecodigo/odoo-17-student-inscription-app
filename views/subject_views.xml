@@ -8,8 +8,8 @@
                 <sheet>
                     <group>
                         <field name="name"/>
-                        <field name="description"/>
                         <field name="credits"/>
+                        <field name="description"/>
                     </group>
                 </sheet>
             </form>
@@ -21,8 +21,8 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
-                <field name="description"/>
                 <field name="credits"/>
+                <field name="description"/>
             </tree>
         </field>
     </record>
