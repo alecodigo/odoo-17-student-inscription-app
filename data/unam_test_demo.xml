@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- Students -->
+    <record id="demo_student_1" model="res.partner">
+        <field name="name">Carlos Martínez</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">2001-11-20</field>
+    </record>
+    <record id="demo_student_2" model="res.partner">
+        <field name="name">María Rodríguez</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">2020-12-15</field>
+    </record>
+    <record id="demo_student_3" model="res.partner">
+        <field name="name">María Rodríguez</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">2020-12-15</field>
+    </record>
+    <record id="demo_student_4" model="res.partner">
+        <field name="name">Sofía López</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">1991-12-15</field>
+    </record>
+    <record id="demo_student_5" model="res.partner">
+        <field name="name">David Johnson</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">1998-12-15</field>
+    </record>
+    <record id="demo_student_6" model="res.partner">
+        <field name="name">Isabel Thompson</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">1996-12-16</field>
+    </record>
+    <record id="demo_student_7" model="res.partner">
+        <field name="name">Alejandro Pérez</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">1997-6-20</field>
+    </record>
+    <record id="demo_student_8" model="res.partner">
+        <field name="name">Patricia Torres</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">1999-12-1</field>
+    </record>
+    <record id="demo_student_9" model="res.partner">
+        <field name="name">Gabriel Ramírez</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">2004-10-2</field>
+    </record>
+    <record id="demo_student_10" model="res.partner">
+        <field name="name">María Rodríguez</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">2005-8-15</field>
+    </record>
+    <record id="demo_student_11" model="res.partner">
+        <field name="name">Carmen Morales</field>
+        <field name="is_student" eval="1"/>
+        <field name="date_birth">2000-6-3</field>
+    </record>
+    <!-- Professors -->
+    <record id="demo_professor_1" model="res.partner">
+        <field name="name">Carlos Martínez</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1985-11-20</field>
+    </record>
+    <record id="demo_professor_2" model="res.partner">
+        <field name="name">Victoria Williams</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1985-11-20</field>
+    </record>
+    <record id="demo_professor_3" model="res.partner">
+        <field name="name">Santiago Ramírez</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1965-10-20</field>
+    </record>
+    <record id="demo_professor_4" model="res.partner">
+        <field name="name">Emma Scott</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1975-9-20</field>
+    </record>
+    <record id="demo_professor_5" model="res.partner">
+        <field name="name">Lucía Martínez</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1985-11-20</field>
+    </record>
+    <record id="demo_professor_6" model="res.partner">
+        <field name="name">Christopher White</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1985-11-20</field>
+    </record>
+    <record id="demo_professor_7" model="res.partner">
+        <field name="name">Juliana Pérez</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1985-11-20</field>
+    </record>
+    <record id="demo_professor_8" model="res.partner">
+        <field name="name">Matthew Harris</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1985-11-20</field>
+    </record>
+    <record id="demo_professor_9" model="res.partner">
+        <field name="name">Pablo Torres</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1965-11-20</field>
+    </record>
+    <record id="demo_professor_10" model="res.partner">
+        <field name="name">Sophia Moore</field>
+        <field name="is_professor" eval="1"/>
+        <field name="date_birth">1958-8-9</field>
+    </record>
+    <!-- subject -->
+    <record id="subjet_math_1" model="subject">
+        <field name="name">Matemática I</field>
+        <field name="description">
+            Matemática I es el curso introductorio donde los estudiantes construirán una base sólida en los principios fundamentales de las matemáticas. A través de este curso, los alumnos se familiarizarán con los conceptos y herramientas esenciales para desarrollar sus habilidades de cálculo y razonamiento lógico.
+
+            En este nivel, los temas abordados incluyen:
+
+            Operaciones básicas con números enteros, fraccionarios y decimales.
+            Ecuaciones lineales y sistemas de ecuaciones.
+            Introducción al álgebra y sus propiedades.
+            Conceptos básicos de geometría, incluyendo figuras y medidas.
+            Funciones y su representación gráfica.
+            Fundamentos de la teoría de conjuntos.
+            Este curso está diseñado para proporcionar a los estudiantes una comprensión clara y práctica de los conceptos matemáticos fundamentales que serán aplicados en niveles más avanzados. Al finalizar, los estudiantes estarán mejor preparados para enfrentar desafíos matemáticos más complejos en su formación académica.
+        
+        </field>
+        <field name="credits">5</field>
+    </record>
+    <record id="subjet_math_2" model="subject">
+        <field name="name">Matemática II</field>
+        <field name="description">
+            Matemáticas II es una continuación del curso introductorio, diseñado para consolidar y ampliar los conocimientos adquiridos en Matemática I. En este curso, los estudiantes profundizarán en el álgebra y la geometría, además de introducirse en el estudio de nuevas áreas clave como las funciones avanzadas y el análisis matemático.
+
+            Los temas principales incluyen:
+
+            Resolución de ecuaciones cuadráticas y polinómicas.
+            Introducción a las funciones exponenciales y logarítmicas.
+            Trigonometría básica: ángulos, razones trigonométricas y su aplicación.
+            Geometría analítica: rectas, circunferencias y cónicas.
+            Progresiones aritméticas y geométricas.
+            Introducción a los límites y continuidad de funciones.
+            Este curso tiene como objetivo desarrollar un entendimiento más profundo y sólido de las matemáticas, preparándolos para enfrentar problemas de mayor complejidad y facilitando la transición hacia cursos avanzados. Al finalizar Matemáticas II, los estudiantes habrán adquirido habilidades clave para abordar conceptos más abstractos y aplicarlos en situaciones reales.
+        </field>
+        <field name="credits">5</field>
+    </record>
+    <record id="subjet_math_3" model="subject">
+        <field name="name">Matemática III</field>
+        <field name="description">
+            Matemáticas III es un curso avanzado que lleva a los estudiantes a un nivel superior de comprensión matemática, enfocándose en el análisis y la resolución de problemas complejos. Este curso introduce conceptos más abstractos y profundiza en el cálculo diferencial e integral, así como en el álgebra avanzada.
+
+            Los temas principales incluyen:
+
+            Cálculo diferencial: derivadas, reglas de diferenciación y aplicaciones en optimización.
+            Cálculo integral: técnicas de integración y aplicación en áreas y volúmenes.
+            Funciones trigonométricas avanzadas e identidades trigonométricas.
+            Álgebra matricial y sistemas de ecuaciones lineales.
+            Sucesiones y series infinitas.
+            Introducción a ecuaciones diferenciales.
+            El objetivo de Matemáticas III es fortalecer las habilidades analíticas de los estudiantes y prepararlos para aplicar el pensamiento matemático en áreas como la física, la ingeniería y las ciencias económicas. Al finalizar el curso, los estudiantes estarán capacitados para abordar problemas más sofisticados y aplicar técnicas matemáticas avanzadas en situaciones prácticas y teóricas.
+        </field>
+        <field name="credits">5</field>
+    </record>
+    <record id="subjet_physics_1" model="subject">
+        <field name="name">Física I</field>
+        <field name="description">
+            Física I es un curso introductorio que proporciona una base sólida en los principios fundamentales de la física clásica. A lo largo del curso, los estudiantes explorarán los conceptos esenciales del movimiento, la energía y las fuerzas, desarrollando habilidades analíticas para resolver problemas físicos básicos.
+
+            Los temas principales incluyen:
+
+            Cinemática: análisis del movimiento rectilíneo y curvilíneo, velocidad, aceleración y gráficos del movimiento.
+            Dinámica: estudio de las fuerzas, las leyes de Newton y sus aplicaciones.
+            Trabajo y energía: principios de conservación de la energía y su relación con el trabajo y la potencia.
+            Momento lineal: impulso, colisiones y conservación del momento.
+            Rotación de cuerpos rígidos: momento de inercia y torque.
+            Este curso tiene como objetivo ayudar a los estudiantes a comprender cómo los principios físicos explican el comportamiento de los objetos en el mundo real. Al finalizar Física I, los estudiantes habrán adquirido las herramientas necesarias para analizar situaciones físicas simples y habrán preparado el camino para estudios más avanzados en física.
+        </field>
+        <field name="credits">5</field>
+    </record>
+    <record id="subjet_physics_2" model="subject">
+        <field name="name">Física II</field>
+        <field name="description">
+            Física II es un curso que continúa el estudio de la física, enfocándose en los principios de la electricidad, el magnetismo, la termodinámica y la óptica. Este curso está diseñado para profundizar en los conceptos aprendidos en Física I y aplicar estos principios a situaciones más complejas en el mundo real.
+
+            Los temas principales incluyen:
+
+            Electromagnetismo: Estudio de las fuerzas eléctricas y magnéticas, ley de Coulomb, campos eléctricos y magnéticos, potencial eléctrico y circuitos eléctricos.
+            Termodinámica: Exploración de las leyes de la termodinámica, calor, trabajo y máquinas térmicas, así como los conceptos de energía interna y entropía.
+            Ondas y sonido: Análisis de las propiedades de las ondas, incluyendo la propagación, frecuencia, longitud de onda, y fenómenos como la interferencia y la resonancia.
+            Óptica: Estudio de la luz y sus propiedades, reflexión y refracción, lentes y sistemas ópticos, así como la formación de imágenes.
+            A través de un enfoque práctico y teórico, los estudiantes aprenderán a aplicar conceptos físicos a problemas reales y desarrollarán habilidades analíticas esenciales. Al finalizar el curso, estarán preparados para enfrentar desafíos en disciplinas relacionadas como la ingeniería, la química y las ciencias naturales.
+        </field>
+        <field name="credits">5</field>
+    </record>
+    <record id="subjet_physics_3" model="subject">
+        <field name="name">Física III</field>
+        <field name="description">
+            Física III es un curso avanzado que se centra en la exploración de conceptos complejos en el campo de la física moderna. Este curso profundiza en temas como la mecánica cuántica, la relatividad, y la física de partículas, brindando a los estudiantes una comprensión más profunda de las leyes que rigen el universo.
+
+            Los temas principales incluyen:
+
+            Mecánica cuántica: Principios fundamentales de la mecánica cuántica, el principio de incertidumbre, funciones de onda y el modelo atómico.
+            Relatividad: Introducción a la teoría de la relatividad especial y general de Einstein, dilatación del tiempo, contracción de la longitud y la equivalencia masa-energía (E=mc²).
+            Termodinámica estadística: Fundamentos de la termodinámica a nivel microscópico, distribución de Maxwell-Boltzmann y aplicaciones en sistemas físicos.
+            Física de partículas: Estudio de las partículas subatómicas, fuerzas fundamentales, y los modelos estándar de la física de partículas.
+            Ondas electromagnéticas: Análisis de las propiedades de las ondas electromagnéticas, propagación, y aplicaciones en tecnología moderna.
+            A través de un enfoque analítico y experimental, los estudiantes aprenderán a aplicar estos conceptos a problemas complejos y situaciones del mundo real. Al finalizar el curso, los alumnos estarán equipados con conocimientos avanzados que les permitirán avanzar en campos como la investigación científica, la ingeniería, y otras disciplinas técnicas.
+        </field>
+        <field name="credits">5</field>
+    </record>
+    <record id="subjet_physics_3" model="subject">
+        <field name="name">Física III</field>
+        <field name="description">
+            Física III es un curso avanzado que se centra en la exploración de conceptos complejos en el campo de la física moderna. Este curso profundiza en temas como la mecánica cuántica, la relatividad, y la física de partículas, brindando a los estudiantes una comprensión más profunda de las leyes que rigen el universo.
+
+            Los temas principales incluyen:
+
+            Mecánica cuántica: Principios fundamentales de la mecánica cuántica, el principio de incertidumbre, funciones de onda y el modelo atómico.
+            Relatividad: Introducción a la teoría de la relatividad especial y general de Einstein, dilatación del tiempo, contracción de la longitud y la equivalencia masa-energía (E=mc²).
+            Termodinámica estadística: Fundamentos de la termodinámica a nivel microscópico, distribución de Maxwell-Boltzmann y aplicaciones en sistemas físicos.
+            Física de partículas: Estudio de las partículas subatómicas, fuerzas fundamentales, y los modelos estándar de la física de partículas.
+            Ondas electromagnéticas: Análisis de las propiedades de las ondas electromagnéticas, propagación, y aplicaciones en tecnología moderna.
+            A través de un enfoque analítico y experimental, los estudiantes aprenderán a aplicar estos conceptos a problemas complejos y situaciones del mundo real. Al finalizar el curso, los alumnos estarán equipados con conocimientos avanzados que les permitirán avanzar en campos como la investigación científica, la ingeniería, y otras disciplinas técnicas.
+        </field>
+        <field name="credits">5</field>
+    </record>
+    <record id="subjet_stadi_3" model="subject">
+        <field name="name">Estadística Básica para Ingeniería</field>
+        <field name="description">
+            El curso de Estadística Básica para Ingeniería está diseñado para introducir a los estudiantes en los principios fundamentales de la estadística y su aplicación en el ámbito de la ingeniería. A lo largo del curso, los alumnos aprenderán a recopilar, analizar e interpretar datos, desarrollando habilidades críticas para la toma de decisiones informadas en proyectos y procesos ingenieriles.
+
+            Los temas principales incluyen:
+
+            Conceptos fundamentales: Población, muestra, variables y tipos de datos.
+            Medidas de tendencia central: Media, mediana y moda; cómo y cuándo utilizarlas.
+            Medidas de dispersión: Rango, varianza y desviación estándar; importancia de la variabilidad en los datos.
+            Distribuciones de probabilidad: Introducción a las distribuciones normal, binomial y de Poisson.
+            Inferencia estadística: Estimación de parámetros, intervalos de confianza y pruebas de hipótesis.
+            Regresión y correlación: Análisis de la relación entre variables y su aplicación en modelos predictivos.
+            Este curso tiene como objetivo proporcionar a los estudiantes una base sólida en estadística, preparando a los futuros ingenieros para aplicar técnicas estadísticas en el análisis de datos y la resolución de problemas en sus respectivas disciplinas. Al finalizar el curso, los estudiantes estarán equipados con las herramientas necesarias para realizar análisis estadísticos básicos y tomar decisiones basadas en datos en un contexto ingenieril.
+        </field>
+        <field name="credits">3</field>
+    </record>
+    <record id="subjet_quimica_gen" model="subject">
+        <field name="name">Química General</field>
+        <field name="description">
+            El curso de Química General ofrece a los estudiantes una introducción a los principios fundamentales de la química y su aplicación en el mundo real. Este curso está diseñado para desarrollar una comprensión básica de la materia, sus propiedades y las transformaciones que experimenta.
+
+            Los temas principales incluyen:
+
+            Estructura atómica: Comprensión de los átomos, partículas subatómicas, números cuánticos y modelos atómicos.
+            Tabla periódica: Organización de los elementos, tendencias periódicas y su relación con las propiedades químicas.
+            Enlaces químicos: Tipos de enlaces (iónico, covalente y metálico), teoría de la repulsión de pares de electrones y geometría molecular.
+            Reacciones químicas: Tipos de reacciones, balanceo de ecuaciones químicas y principios de la estequiometría.
+            Soluciones y concentración: Tipos de soluciones, métodos de preparación y cálculos de concentración.
+            Termodinámica química: Leyes de la termodinámica, cambios de energía en reacciones químicas y equilibrio químico.
+            A través de un enfoque práctico y teórico, los estudiantes aprenderán a aplicar conceptos químicos a situaciones cotidianas y desarrollarán habilidades para el análisis y resolución de problemas en el laboratorio. Al finalizar el curso, los alumnos estarán preparados para avanzar en estudios más especializados en química y otras disciplinas científicas.
+        </field>
+        <field name="credits">4</field>
+    </record>
+    <record id="subjet_transfor_inte" model="subject">
+        <field name="name">Transformadas Integrales</field>
+        <field name="description">
+            El curso de Transformadas Integrales está diseñado para proporcionar a los estudiantes una comprensión profunda de las transformadas integrales y su aplicación en la resolución de problemas en diversas áreas de la ingeniería y las ciencias aplicadas. A lo largo del curso, se explorarán las principales transformadas y sus propiedades, así como su uso en el análisis de sistemas lineales y la solución de ecuaciones diferenciales.
+
+            Los temas principales incluyen:
+
+            Transformada de Laplace: Definición, propiedades, y su aplicación en la solución de ecuaciones diferenciales ordinarias y en el análisis de sistemas dinámicos.
+            Transformada de Fourier: Conceptos básicos, propiedades, y su uso en el análisis de señales y en la resolución de problemas de series y transformaciones.
+            Transformadas Z: Aplicaciones en el análisis de sistemas discretos y en el procesamiento digital de señales.
+            Propiedades de las transformadas: Linealidad, desplazamiento en el tiempo, y teoremas de convolución.
+            Aplicaciones prácticas: Resolución de problemas en ingeniería eléctrica, control de sistemas, y análisis de señales.
+            Este curso tiene como objetivo equipar a los estudiantes con las herramientas necesarias para aplicar transformadas integrales en situaciones prácticas y teóricas. Al finalizar, los estudiantes estarán preparados para abordar problemas complejos en el análisis de sistemas y en el modelado matemático.
+        </field>
+        <field name="credits">4</field>
+    </record>
+    <record id="subjet_geo_analitica" model="subject">
+        <field name="name">Geometría Analítica</field>
+        <field name="description">
+            El curso de Geometría Analítica proporciona a los estudiantes las herramientas necesarias para estudiar las relaciones entre la geometría y el álgebra a través de un enfoque analítico. Este curso se centra en el uso de coordenadas y ecuaciones para representar y analizar figuras geométricas en el plano y en el espacio tridimensional.
+
+            Los temas principales incluyen:
+
+            Sistema de coordenadas: Introducción a los sistemas de coordenadas cartesianas, polares y paramétricas.
+            Rectas y planos: Ecuaciones de la recta en el plano, pendiente, intersecciones y ecuaciones de planos en el espacio tridimensional.
+            Cónicas: Estudio de las secciones cónicas (elipses, hipérbolas y parábolas), sus propiedades y ecuaciones.
+            Distancias y ángulos: Cálculo de distancias entre puntos, ángulos entre rectas y planos, y la relación entre las coordenadas.
+            Transformaciones geométricas: Análisis de traslaciones, rotaciones, reflexiones y dilataciones en el plano y en el espacio.
+            Superficies en el espacio: Introducción a superficies como esferas, cilindros y conos, así como sus ecuaciones.
+            Este curso tiene como objetivo desarrollar la habilidad de los estudiantes para visualizar y resolver problemas geométricos utilizando métodos algebraicos. Al finalizar, los estudiantes estarán capacitados para aplicar conceptos de geometría analítica en diversas áreas, como la ingeniería, la física y las ciencias aplicadas.
+        </field>
+        <field name="credits">3</field>
+    </record>
+    <!-- Ecuaciones Diferenciales: -->
+    <record id="subjet_ecu_dife" model="subject">
+        <field name="name">Ecuaciones Diferenciales</field>
+        <field name="description">
+            El curso de Ecuaciones Diferenciales está diseñado para proporcionar a los estudiantes una comprensión profunda de las ecuaciones que relacionan funciones y sus derivadas, así como las técnicas para resolverlas. Este curso es fundamental para diversas aplicaciones en ingeniería, física, economía y otras disciplinas científicas.
+
+            Los temas principales incluyen:
+
+            Introducción a las ecuaciones diferenciales: Clasificación de las ecuaciones diferenciales según su orden y linealidad.
+            Ecuaciones diferenciales de primer orden: Métodos de solución, como separación de variables, ecuaciones homogéneas y ecuaciones exactas.
+            Ecuaciones diferenciales de segundo orden: Métodos de solución para ecuaciones lineales con coeficientes constantes y variables, así como el uso de operadores diferenciales.
+            Sistemas de ecuaciones diferenciales: Análisis y solución de sistemas lineales y no lineales de ecuaciones diferenciales.
+            Métodos numéricos: Introducción a métodos de aproximación, como el método de Euler y el método de Runge-Kutta para resolver ecuaciones diferenciales cuando las soluciones analíticas son difíciles de encontrar.
+            Aplicaciones: Modelado de fenómenos físicos, biológicos y económicos utilizando ecuaciones diferenciales, así como el análisis de estabilidad y comportamiento a largo plazo de soluciones.
+            Este curso tiene como objetivo equipar a los estudiantes con las habilidades necesarias para formular y resolver problemas modelados por ecuaciones diferenciales en diversas aplicaciones prácticas. Al finalizar, los alumnos estarán preparados para aplicar métodos analíticos y numéricos en el análisis de sistemas dinámicos.
+        </field>
+        <field name="credits">3</field>
+    </record>
+
+    <!-- courses -->
+    <record id="course_1" model="product.template">
+        <field name="name">Ingeniería - Primer Semestre</field>
+        <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_5'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), 
+        (4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_quimica_gen')),
+        (4, ref('unam_test.subjet_geo_analitica'))]"/>
+    </record>
+    <record id="course_2" model="product.template">
+        <field name="name">Física - Primer Semestre</field>
+        <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_4'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_math_1'))]"/>
+    </record>
+    <record id="course_3" model="product.template">
+        <field name="name">Matemática - Primer Semestre</field>
+        <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_10'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_geo_analitica')), 
+        (4, ref('unam_test.subjet_geo_analitica'))]"/>
+    </record>
+</odoo>

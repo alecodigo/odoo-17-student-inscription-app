@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="student_inscription_view_form" model="ir.ui.view">
+        <field name="name">student.inscription.view.form</field>
+        <field name="model">student.inscription</field>
+        <field name="arch" type="xml">
+            <form string="Student Inscriptions">
+                <header>
+                    <field name="state" widget="statubar"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="student_id"/>         
+                        <field name="course_id"/>            
+                        <field name="enrollment_date"/>   
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="student_inscription_view_tree" model="ir.ui.view">
+        <field name="name">student.inscription.inherit.view.tree</field>
+        <field name="model">student.inscription</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="student_id"/>         
+                <field name="course_id"/>            
+                <field name="enrollment_date"/>
+                <field name="state" widget="statubar"/>
+            </tree>
+        </field>
+    </record>
+    <record id="student_inscription_action" model="ir.actions.act_window">
+        <field name="name">student.inscription.action</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">student.inscription</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+    </record>
+
+</odoo>
