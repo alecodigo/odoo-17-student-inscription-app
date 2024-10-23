@@ -15,6 +15,8 @@
         'product',
     ],
     'data': [
+        'data/user_data.xml',
+
         'security/unam_test_groups.xml',
         'security/ir.model.access.csv',
         

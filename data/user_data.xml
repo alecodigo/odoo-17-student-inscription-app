@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="1">
+        <record id="user_office_manager" model="res.users">
+            <field name="name">Office Manager User</field>
+            <field name="login">office_manager</field>
+            <field name="password">12345678</field>
+        </record>
+        <record id="user_academic_coordinator" model="res.users">
+            <field name="name">Academic Coordinator</field>
+            <field name="login">academic_coo</field>
+            <field name="password">12345678</field>
+        </record>
+        <record id="user_professor" model="res.users">
+            <field name="name">Professor</field>
+            <field name="login">professor</field>
+            <field name="password">12345678</field>
+        </record>
+    </data>
+</odoo>
