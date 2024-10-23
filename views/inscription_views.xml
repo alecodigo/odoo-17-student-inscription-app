@@ -31,7 +31,7 @@
         </field>
     </record>
     <record id="student_inscription_action" model="ir.actions.act_window">
-        <field name="name">student.inscription.action</field>
+        <field name="name">Inscriptions</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">student.inscription</field>
         <field name="view_mode">tree,form</field>

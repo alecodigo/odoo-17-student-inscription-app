@@ -109,7 +109,7 @@
     </record>
 
     <!-- subject -->
-    <record id="subjet_math_1" model="subject">
+    <record id="subject_math_1" model="subject">
         <field name="name">Matemática I</field>
         <field name="description">
             Matemática I es el curso introductorio donde los estudiantes construirán una base sólida en los principios fundamentales de las matemáticas. A través de este curso, los alumnos se familiarizarán con los conceptos y herramientas esenciales para desarrollar sus habilidades de cálculo y razonamiento lógico.
@@ -127,7 +127,7 @@
         </field>
         <field name="credits">5</field>
     </record>
-    <record id="subjet_math_2" model="subject">
+    <record id="subject_math_2" model="subject">
         <field name="name">Matemática II</field>
         <field name="description">
             Matemáticas II es una continuación del curso introductorio, diseñado para consolidar y ampliar los conocimientos adquiridos en Matemática I. En este curso, los estudiantes profundizarán en el álgebra y la geometría, además de introducirse en el estudio de nuevas áreas clave como las funciones avanzadas y el análisis matemático.
@@ -144,7 +144,7 @@
         </field>
         <field name="credits">5</field>
     </record>
-    <record id="subjet_math_3" model="subject">
+    <record id="subject_math_3" model="subject">
         <field name="name">Matemática III</field>
         <field name="description">
             Matemáticas III es un curso avanzado que lleva a los estudiantes a un nivel superior de comprensión matemática, enfocándose en el análisis y la resolución de problemas complejos. Este curso introduce conceptos más abstractos y profundiza en el cálculo diferencial e integral, así como en el álgebra avanzada.
@@ -161,7 +161,7 @@
         </field>
         <field name="credits">5</field>
     </record>
-    <record id="subjet_physics_1" model="subject">
+    <record id="subject_physics_1" model="subject">
         <field name="name">Física I</field>
         <field name="description">
             Física I es un curso introductorio que proporciona una base sólida en los principios fundamentales de la física clásica. A lo largo del curso, los estudiantes explorarán los conceptos esenciales del movimiento, la energía y las fuerzas, desarrollando habilidades analíticas para resolver problemas físicos básicos.
@@ -177,7 +177,7 @@
         </field>
         <field name="credits">5</field>
     </record>
-    <record id="subjet_physics_2" model="subject">
+    <record id="subject_physics_2" model="subject">
         <field name="name">Física II</field>
         <field name="description">
             Física II es un curso que continúa el estudio de la física, enfocándose en los principios de la electricidad, el magnetismo, la termodinámica y la óptica. Este curso está diseñado para profundizar en los conceptos aprendidos en Física I y aplicar estos principios a situaciones más complejas en el mundo real.
@@ -192,7 +192,7 @@
         </field>
         <field name="credits">5</field>
     </record>
-    <record id="subjet_physics_3" model="subject">
+    <record id="subject_physics_3" model="subject">
         <field name="name">Física III</field>
         <field name="description">
             Física III es un curso avanzado que se centra en la exploración de conceptos complejos en el campo de la física moderna. Este curso profundiza en temas como la mecánica cuántica, la relatividad, y la física de partículas, brindando a los estudiantes una comprensión más profunda de las leyes que rigen el universo.
@@ -208,7 +208,7 @@
         </field>
         <field name="credits">5</field>
     </record>
-    <record id="subjet_stadi" model="subject">
+    <record id="subject_stadi" model="subject">
         <field name="name">Estadística Básica para Ingeniería</field>
         <field name="description">
             El curso de Estadística Básica para Ingeniería está diseñado para introducir a los estudiantes en los principios fundamentales de la estadística y su aplicación en el ámbito de la ingeniería. A lo largo del curso, los alumnos aprenderán a recopilar, analizar e interpretar datos, desarrollando habilidades críticas para la toma de decisiones informadas en proyectos y procesos ingenieriles.
@@ -225,7 +225,7 @@
         </field>
         <field name="credits">3</field>
     </record>
-    <record id="subjet_quimica_gen" model="subject">
+    <record id="subject_quimica_gen" model="subject">
         <field name="name">Química General</field>
         <field name="description">
             El curso de Química General ofrece a los estudiantes una introducción a los principios fundamentales de la química y su aplicación en el mundo real. Este curso está diseñado para desarrollar una comprensión básica de la materia, sus propiedades y las transformaciones que experimenta.
@@ -242,7 +242,7 @@
         </field>
         <field name="credits">4</field>
     </record>
-    <record id="subjet_transfor_inte" model="subject">
+    <record id="subject_transfor_inte" model="subject">
         <field name="name">Transformadas Integrales</field>
         <field name="description">
             El curso de Transformadas Integrales está diseñado para proporcionar a los estudiantes una comprensión profunda de las transformadas integrales y su aplicación en la resolución de problemas en diversas áreas de la ingeniería y las ciencias aplicadas. A lo largo del curso, se explorarán las principales transformadas y sus propiedades, así como su uso en el análisis de sistemas lineales y la solución de ecuaciones diferenciales.
@@ -258,7 +258,7 @@
         </field>
         <field name="credits">4</field>
     </record>
-    <record id="subjet_geo_analitica" model="subject">
+    <record id="subject_geo_analitica" model="subject">
         <field name="name">Geometría Analítica</field>
         <field name="description">
             El curso de Geometría Analítica proporciona a los estudiantes las herramientas necesarias para estudiar las relaciones entre la geometría y el álgebra a través de un enfoque analítico. Este curso se centra en el uso de coordenadas y ecuaciones para representar y analizar figuras geométricas en el plano y en el espacio tridimensional.
@@ -276,7 +276,7 @@
         <field name="credits">3</field>
     </record>
     <!-- Ecuaciones Diferenciales: -->
-    <record id="subjet_ecu_dife" model="subject">
+    <record id="subject_ecu_dife" model="subject">
         <field name="name">Ecuaciones Diferenciales</field>
         <field name="description">
             El curso de Ecuaciones Diferenciales está diseñado para proporcionar a los estudiantes una comprensión profunda de las ecuaciones que relacionan funciones y sus derivadas, así como las técnicas para resolverlas. Este curso es fundamental para diversas aplicaciones en ingeniería, física, economía y otras disciplinas científicas.
@@ -302,9 +302,9 @@
         <field name="duration">60</field>
         <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_5'))]"/>
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), 
-        (4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_quimica_gen')),
-        (4, ref('unam_test.subjet_geo_analitica'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_physics_1')), 
+        (4, ref('unam_test.subject_transfor_inte')), (4, ref('unam_test.subject_math_1')), (4, ref('unam_test.subject_quimica_gen')),
+        (4, ref('unam_test.subject_geo_analitica'))]"/>
     </record>
     <record id="course_2" model="product.template">
         <field name="name">Física - Primer Semestre</field>
@@ -313,7 +313,7 @@
         <field name="duration">60</field>
         <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_4'))]"/>
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_math_1'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_physics_1')), (4, ref('unam_test.subject_math_1'))]"/>
     </record>
     <record id="course_3" model="product.template">
         <field name="name">Matemática - Primer Semestre</field>
@@ -322,7 +322,7 @@
         <field name="duration">60</field>
         <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_10')), (4, ref('unam_test.demo_professor_2'))]"/>
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_2')), (4, ref('unam_test.subjet_geo_analitica'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_math_2')), (4, ref('unam_test.subject_geo_analitica'))]"/>
     </record>
     <record id="course_4" model="product.template">
         <field name="name">Ingeniería - Segundo Semestre</field>
@@ -331,7 +331,7 @@
         <field name="duration">60</field>
         <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_10')), (4, ref('unam_test.demo_professor_3'))]"/>
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_2')), (4, ref('unam_test.subjet_physics_2'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_math_2')), (4, ref('unam_test.subject_physics_2'))]"/>
     </record>
     <record id="course_5" model="product.template">
         <field name="name">Ingeniería - Tercer Semestre</field>
@@ -340,41 +340,41 @@
         <field name="duration">60</field>
         <field name="max_capacity">30</field>
         <field name="professor_ids" eval="[(4, ref('unam_test.demo_professor_8')), (4, ref('unam_test.demo_professor_10'))]"/>
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_3')), (4, ref('unam_test.subjet_physics_3')), 
-        (4, ref('unam_test.subjet_ecu_dife'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_math_3')), (4, ref('unam_test.subject_physics_3')), 
+        (4, ref('unam_test.subject_ecu_dife'))]"/>
     </record>
 
     <!-- Updating professors -->
     <record id="demo_professor_1" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_math_1'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_physics_1')), (4, ref('unam_test.subject_math_1'))]"/>
     </record>
     <record id="demo_professor_2" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_geo_analitica'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_geo_analitica'))]"/>
     </record>
     <record id="demo_professor_3" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_physics_2'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_transfor_inte')), (4, ref('unam_test.subject_physics_2'))]"/>
     </record>
     <record id="demo_professor_4" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_stadi')), (4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_math_1'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_stadi')), (4, ref('unam_test.subject_physics_1')), (4, ref('unam_test.subject_math_1'))]"/>
     </record>
     <record id="demo_professor_5" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1')), (4, ref('unam_test.subjet_transfor_inte')), (4, ref('unam_test.subjet_math_1')), (4, ref('unam_test.subjet_quimica_gen')), (4, ref('unam_test.subjet_geo_analitica'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_physics_1')), (4, ref('unam_test.subject_transfor_inte')), (4, ref('unam_test.subject_math_1')), (4, ref('unam_test.subject_quimica_gen')), (4, ref('unam_test.subject_geo_analitica'))]"/>
     </record>
     <record id="demo_professor_6" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_transfor_inte'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_transfor_inte'))]"/>
     </record>
     <record id="demo_professor_7" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_physics_1'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_physics_1'))]"/>
     </record>
     <record id="demo_professor_8" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_ecu_dife')), 
-        (4, ref('unam_test.subjet_math_1'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_ecu_dife')), 
+        (4, ref('unam_test.subject_math_1'))]"/>
     </record>
     <record id="demo_professor_9" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_quimica_gen'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_quimica_gen'))]"/>
     </record>
     <record id="demo_professor_10" model="res.partner">
-        <field name="subject_ids" eval="[(4, ref('unam_test.subjet_math_2')), (4, ref('unam_test.subjet_math_3'))]"/>
+        <field name="subject_ids" eval="[(4, ref('unam_test.subject_math_2')), (4, ref('unam_test.subject_math_3'))]"/>
     </record>
 
     <!-- Inscriptions -->

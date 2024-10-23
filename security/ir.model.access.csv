@@ -1,3 +1,11 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_student_inscription,student.inscription,model_student_inscription,base.group_user,1,1,1,1
-access_subject,subject,model_subject,base.group_user,1,1,1,1
+access_student_inscription,student.inscription,model_student_inscription,base.group_erp_manager,1,1,1,1
+access_student_inscription,student.inscription,model_student_inscription,group_inscription_manager,1,1,1,1
+access_subject,subject,model_subject,base.group_erp_manager,1,1,1,1
+access_subject,subject,model_subject,group_subject_manager,1,1,1,1
+access_subject,subject,model_subject,group_professor,1,0,0,0
+access_res_partner,res.partner,model_res_partner,group_manage_students_professors,1,1,1,1
+access_res_partner,res.partner,model_res_partner,base.group_erp_manager,1,1,1,1
+access_res_partner,res.partner,model_res_partner,group_professor,1,0,0,0
+access_product_template,product.template,model_product_template,group_professor,1,0,0,0
+

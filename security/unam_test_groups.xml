@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="group_professor" model="res.groups">
+        <field name="name">Professors</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+    </record>
+
+    <record id="group_inscription_manager" model="res.groups">
+        <field name="name">Office Manager</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+
+    </record>
+
+    <record id="group_subject_manager" model="res.groups">
+        <field name="name">Subject Manager</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+
+    </record>
+
+    <record id="group_manage_students_professors" model="res.groups">
+        <field name="name">Student and Professor Manager</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+
+    </record>
+
+    
+</odoo>

@@ -17,18 +17,18 @@
               action="student_inscription_action" 
               sequence="2"/>
 
-    <menuitem id="student_menu" 
-              name="Students" 
-              parent="root_menu" 
-              action="contacts.action_contacts" 
-              sequence="3"/>
-    
     <menuitem id="professor_menu" 
               name="Professor"
               parent="root_menu" 
-              action="contacts.action_contacts" 
-              sequence="4"/>
+              action="res_partner_professor_action" 
+              sequence="3"/>
 
+    <menuitem id="student_menu" 
+              name="Students" 
+              parent="root_menu" 
+              action="res_partner_student_action" 
+              sequence="4"/>
+    
     <menuitem id="subject_menu" 
               name="Subjects" 
               parent="root_menu" 

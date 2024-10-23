@@ -28,4 +28,14 @@
             </xpath>
         </field>
     </record>
+    <record id="res_partner_professor_action" model="ir.actions.act_window">
+        <field name="name">Professors</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="domain">[
+            ('is_professor', '=', 'True')
+        ]</field>
+        <field name="context">{}</field>
+    </record>
 </odoo>
