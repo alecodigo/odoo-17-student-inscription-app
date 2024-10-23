@@ -34,4 +34,15 @@
         <field name="domain">[]</field>
         <field name="context">{}</field>
     </record>
+    <!-- subject search view -->
+    <record id="subject_view_search" model="ir.ui.view">
+        <field name="name">subject.view.search</field>
+        <field name="model">subject</field>
+        <field name="arch" type="xml">
+            <search string="Search Subjects">
+                <field name="name"/>
+                <field name="credits"/>                
+            </search>
+        </field>
+    </record>
 </odoo>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    
+    <data noupdate="0">
+        <record id="rule_limit_professor_student_visibility" model="ir.rule">
+            <field name="name">Hide Professors and  Students</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+            <field name="domain_force">[('is_professor','=',False), ('is_student', '=', False)]</field>
+        </record>
+
+        <record id="rule_professor_access_students_teachers" model="ir.rule">
+            <field name="name">Access to Students and Professors</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="groups" eval="[(4, ref('unam_test.group_professor')), 
+                                        (4, ref('unam_test.group_office_manager')), 
+                                        (4, ref('unam_test.group_academic_coordinator'))]"/>
+            <field name="domain_force">['|', ('is_professor', '=', True), ('is_student', '=', True)]</field>
+        </record>   
+    </data>
+    
+</odoo>

@@ -3,7 +3,8 @@
 
     <menuitem id="root_menu"
               name="UNAM" 
-              web_icon="base,static/description/icon.png" />
+              groups="group_professor,group_office_manager,group_academic_coordinator,base.group_erp_manager"
+              web_icon="base,static/description/icon.png"/>
 
     <menuitem id="product_template_menu" 
               name="Courses" 

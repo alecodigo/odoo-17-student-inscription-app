@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
+    <!-- groups -->
     <record id="group_professor" model="res.groups">
         <field name="name">Professors</field>
         <field name="category_id" ref="base.module_category_hidden"/>

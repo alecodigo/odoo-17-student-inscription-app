@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
+    <!-- Form view -->
     <record id="student_inscription_view_form" model="ir.ui.view">
         <field name="name">student.inscription.view.form</field>
         <field name="model">student.inscription</field>
@@ -21,6 +22,7 @@
             </form>
         </field>
     </record>
+    <!-- Tree view -->
     <record id="student_inscription_view_tree" model="ir.ui.view">
         <field name="name">student.inscription.inherit.view.tree</field>
         <field name="model">student.inscription</field>
@@ -40,5 +42,15 @@
         <field name="view_mode">tree,form</field>
         <field name="domain">[]</field>
     </record>
-
+    <!-- search inscription view -->
+    <record id="student_inscription_view_search" model="ir.ui.view">
+        <field name="name">student.inscription.view.search</field>
+        <field name="model">student.inscription</field>
+        <field name="arch" type="xml">
+            <search string="Search Inscription">
+                <field name="student_id"/>
+                <field name="course_id"/>
+            </search>
+        </field>
+    </record>
 </odoo>

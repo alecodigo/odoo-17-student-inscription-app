@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
+    <!-- Users -->
     <data noupdate="1">
         <record id="user_office_manager" model="res.users">
             <field name="name">Office Manager User</field>

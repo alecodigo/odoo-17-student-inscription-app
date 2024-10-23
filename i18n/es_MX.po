@@ -1,0 +1,292 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* unam_test
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-23 13:55+0000\n"
+"PO-Revision-Date: 2024-10-23 10:13-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: unam_test
+#: model:res.groups,name:unam_test.group_academic_coordinator
+msgid "Academic Coordinator"
+msgstr "Coordinador Académico"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_res_partner__age
+#: model:ir.model.fields,field_description:unam_test.field_res_users__age
+msgid "Age"
+msgstr "Edad"
+
+#. module: unam_test
+#: model:ir.model.fields.selection,name:unam_test.selection__student_inscription__state__cancel
+#: model_terms:ir.ui.view,arch_db:unam_test.student_inscription_view_form
+msgid "Cancel"
+msgstr "Cancelada"
+
+#. module: unam_test
+#: model_terms:ir.ui.view,arch_db:unam_test.student_inscription_view_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: unam_test
+#: model:ir.model.fields.selection,name:unam_test.selection__student_inscription__state__confirmed
+msgid "Confirmed"
+msgstr "Confirmada"
+
+#. module: unam_test
+#: model:ir.model,name:unam_test.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__course_id
+msgid "Course"
+msgstr "Curso"
+
+#. module: unam_test
+#: model_terms:ir.ui.view,arch_db:unam_test.product_template_view_form
+msgid "Course Information"
+msgstr "Información del Curso"
+
+#. module: unam_test
+#: model:ir.actions.act_window,name:unam_test.product_template_course_action
+#: model:ir.ui.menu,name:unam_test.product_template_menu
+msgid "Courses"
+msgstr "Cursos"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__create_uid
+#: model:ir.model.fields,field_description:unam_test.field_subject__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__create_date
+#: model:ir.model.fields,field_description:unam_test.field_subject__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_subject__credits
+msgid "Credits"
+msgstr "Créditos"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_res_partner__subject_ids
+#: model:ir.model.fields,field_description:unam_test.field_res_users__subject_ids
+msgid "Current Subjects"
+msgstr "Materias actuales"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_res_partner__date_birth
+#: model:ir.model.fields,field_description:unam_test.field_res_users__date_birth
+msgid "Date of birth"
+msgstr "Fecha de nacimiento"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_subject__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__display_name
+#: model:ir.model.fields,field_description:unam_test.field_subject__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_product_product__duration
+#: model:ir.model.fields,field_description:unam_test.field_product_template__duration
+msgid "Duration (days)"
+msgstr "Duración (días)"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__enrollment_date
+msgid "Enrollment date"
+msgstr "Fecha de inscripción"
+
+#. module: unam_test
+#: model:product.template,name:unam_test.course_2
+msgid "Física - Primer Semestre"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__id
+#: model:ir.model.fields,field_description:unam_test.field_subject__id
+msgid "ID"
+msgstr ""
+
+#. module: unam_test
+#: model:product.template,name:unam_test.course_1
+msgid "Ingeniería - Primer Semestre"
+msgstr ""
+
+#. module: unam_test
+#: model:product.template,name:unam_test.course_4
+msgid "Ingeniería - Segundo Semestre"
+msgstr ""
+
+#. module: unam_test
+#: model:product.template,name:unam_test.course_5
+msgid "Ingeniería - Tercer Semestre"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.actions.act_window,name:unam_test.student_inscription_action
+#: model:ir.ui.menu,name:unam_test.inscription_menu
+msgid "Inscriptions"
+msgstr "Inscripción"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_product_product__is_course
+#: model:ir.model.fields,field_description:unam_test.field_product_template__is_course
+msgid "Is a course?"
+msgstr "¿Es un curso?"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_res_partner__is_professor
+#: model:ir.model.fields,field_description:unam_test.field_res_users__is_professor
+msgid "Is a professor?"
+msgstr "¿Es un profesor?"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_res_partner__is_student
+#: model:ir.model.fields,field_description:unam_test.field_res_users__is_student
+msgid "Is student?"
+msgstr "¿Es un estudiante?"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__write_uid
+#: model:ir.model.fields,field_description:unam_test.field_subject__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__write_date
+#: model:ir.model.fields,field_description:unam_test.field_subject__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: unam_test
+#: model:product.template,name:unam_test.course_3
+msgid "Matemática - Primer Semestre"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_subject__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: unam_test
+#: model:res.groups,name:unam_test.group_office_manager
+msgid "Office Manager"
+msgstr "Gerente administrativo"
+
+#. module: unam_test
+#: model:ir.model,name:unam_test.model_product_template
+msgid "Product"
+msgstr "Producto"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_product_product__professor_ids
+#: model:ir.model.fields,field_description:unam_test.field_product_template__professor_ids
+msgid "Profesores"
+msgstr "Profesores"
+
+#. module: unam_test
+#: model:ir.ui.menu,name:unam_test.professor_menu
+msgid "Professor"
+msgstr "Profesor"
+
+#. module: unam_test
+#: model:ir.actions.act_window,name:unam_test.res_partner_professor_action
+#: model:res.groups,name:unam_test.group_professor
+#: model_terms:ir.ui.view,arch_db:unam_test.product_template_view_form
+msgid "Professors"
+msgstr "Profesores"
+
+#. module: unam_test
+#: model_terms:ir.ui.view,arch_db:unam_test.student_inscription_view_search
+msgid "Search Inscription"
+msgstr "Buscar Inscripción"
+
+#. module: unam_test
+#: model_terms:ir.ui.view,arch_db:unam_test.subject_view_search
+msgid "Search Subjects"
+msgstr "Buscar Materias"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_product_product__date_start
+#: model:ir.model.fields,field_description:unam_test.field_product_template__date_start
+msgid "Start date"
+msgstr "Fecha de Inicio"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__state
+msgid "State"
+msgstr "Estado"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_student_inscription__student_id
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: unam_test
+#: model:ir.model,name:unam_test.model_student_inscription
+msgid "Student Inscription"
+msgstr "Inscripción de Estudiante"
+
+#. module: unam_test
+#: model_terms:ir.ui.view,arch_db:unam_test.student_inscription_view_form
+msgid "Student Inscriptions"
+msgstr "Inscripciones de Estudiantes"
+
+#. module: unam_test
+#: model:ir.actions.act_window,name:unam_test.res_partner_student_action
+#: model:ir.ui.menu,name:unam_test.student_menu
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: unam_test
+#: model:ir.model,name:unam_test.model_subject
+msgid "Subject"
+msgstr "Materia"
+
+#. module: unam_test
+#: model:ir.actions.act_window,name:unam_test.subject_action
+#: model:ir.model.fields,field_description:unam_test.field_product_product__subject_ids
+#: model:ir.model.fields,field_description:unam_test.field_product_template__subject_ids
+#: model:ir.ui.menu,name:unam_test.subject_menu
+#: model_terms:ir.ui.view,arch_db:unam_test.product_template_view_form
+#: model_terms:ir.ui.view,arch_db:unam_test.res_partner_professor_view_form
+#: model_terms:ir.ui.view,arch_db:unam_test.subject_view_form
+msgid "Subjects"
+msgstr "Materias"
+
+#. module: unam_test
+#: model:ir.ui.menu,name:unam_test.root_menu
+msgid "UNAM"
+msgstr ""
+
+#. module: unam_test
+#: model:ir.model.fields.selection,name:unam_test.selection__student_inscription__state__waiting
+#: model_terms:ir.ui.view,arch_db:unam_test.student_inscription_view_form
+msgid "Waiting"
+msgstr "Pendiente"
+
+#. module: unam_test
+#: model:ir.model.fields,field_description:unam_test.field_product_product__max_capacity
+#: model:ir.model.fields,field_description:unam_test.field_product_template__max_capacity
+msgid "maximum capacity"
+msgstr "Máxima Capacidad"

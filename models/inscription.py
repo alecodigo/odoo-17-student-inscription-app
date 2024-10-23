@@ -9,11 +9,20 @@ class Inscription(models.Model):
     _name = 'student.inscription'
     _description = 'Student Inscription'
 
-    student_id = fields.Many2one('res.partner', string='Student', required=True)
-    course_id = fields.Many2one('product.template', string='Course', required=True)
-    enrollment_date = fields.Date(string='Enrollment date')
-    state = fields.Selection([('waiting', 'Waiting'), ('confirmed', 'Confirmed'), ('cancel', 'Cancel')], string='State', default='waiting')
+    name = fields.Char(
+        string='Number',
+        compute='_compute_name', readonly=False, store=True,
+        copy=False,
+    )
+    student_id = fields.Many2one('res.partner', string='Student', copy=False, required=True)
+    course_id = fields.Many2one('product.template', copy=False, domain=[('is_course', '=', True)], string='Course', required=True)
+    enrollment_date = fields.Date(string='Enrollment date', copy=False, required=True)
+    state = fields.Selection([('waiting', 'Waiting'), ('confirmed', 'Confirmed'), ('cancel', 'Cancel')], string='State', copy=False, default='waiting')
     
+    @api.depends('student_id', 'course_id')
+    def _compute_name(self):
+        for record in self:
+            record.name = f"{record.student_id.name} , {record.course_id.name}" 
 
     def action_confirm(self):
         self.state = 'confirmed'

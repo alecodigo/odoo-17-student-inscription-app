@@ -16,8 +16,9 @@
     ],
     'data': [
         'data/user_data.xml',
-
+        
         'security/unam_test_groups.xml',
+        'security/unam_test_security.xml',
         'security/ir.model.access.csv',
         
         'views/course_views.xml',
