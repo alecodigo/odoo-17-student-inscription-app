@@ -14,3 +14,12 @@ class Inscription(models.Model):
     enrollment_date = fields.Date(string='Enrollment date')
     state = fields.Selection([('waiting', 'Waiting'), ('confirmed', 'Confirmed'), ('cancel', 'Cancel')], string='State', default='waiting')
     
+
+    def action_confirm(self):
+        self.state = 'confirmed'
+    
+    def action_waiting(self):
+        self.state = 'waiting'
+    
+    def action_cancel(self):
+        self.state = 'cancel'
