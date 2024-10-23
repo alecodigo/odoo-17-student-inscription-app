@@ -3,7 +3,7 @@ access_student_inscription_erp_manager,student.inscription,model_student_inscrip
 access_student_inscription_office_manager,student.inscription,model_student_inscription,group_office_manager,1,1,1,1
 access_student_inscription_academic_coordinator,student.inscription,model_student_inscription,group_academic_coordinator,1,1,1,1
 access_subject_academic_coordinator,subject,model_subject,group_academic_coordinator,1,1,1,1
-access_subject_office_manager,subject,model_subject,group_office_manager,1,1,1,1
+access_subject_office_manager,subject,model_subject,group_office_manager,1,0,0,0
 access_subject_erp_manager,subject,model_subject,base.group_erp_manager,1,1,1,1
 access_subject_group_professor,subject,model_subject,group_professor,1,0,0,0
 access_res_partner_academic_coordinator,res.partner,model_res_partner,group_academic_coordinator,1,1,1,1
