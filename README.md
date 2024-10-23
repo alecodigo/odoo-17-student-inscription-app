@@ -12,15 +12,15 @@ Se crearon los siguientes modelos:
 - **student.inscription**: Registro de las inscripciones de los alumnos con su respectivo curso y fecha de inicio.
 - **subject**: Registro de las materias (subjects).
 
-Para los cursos, estudiantes y profesores, se crearon adicionalmente dos modelos más bajo el paradigma de herencia, usando los campos booleanos `is_student` o `is_professor` para diferenciarlos y aplicar la lógica de negocio con grupos y reglas de registro.
+Para estudiantes y profesores, se crearon adicionalmente dos modelos más. Bajo el paradigma de herencia, usando los campos booleanos `is_student` o `is_professor` para diferenciarlos y aplicar la lógica de negocio con grupos y reglas de registro.
 
 En el caso de los cursos, se procedió de igual manera, creando un campo adicional `is_course` para diferenciarlos de los productos corrientes que se instalan de manera nativa en Odoo cuando se usa el demo.
 
 La estructura de la App es la siguiente:
 
-1. **product.template**: Para registrar en la base de datos los cursos.
-2. **res.partner**: Para el registro de estudiantes, profesores y terceros.
-3. **student.inscription**: Para registrar el curso, el estudiante y la fecha de inicio.
+1. **product.template**: Para registrar en la base de datos los cursos. Recuerde dar click en el campo is_couse (¿Es un curso?) para que Odoo entienda que es un curso y no otro producto.
+2. **res.partner**: Para el registro de estudiantes, profesores y terceros. Recuerda dar click en el campo is_student para estudiantes o is_professor para los profesores. De este modo Odoo sabe que usted ha creado un profesor o un estudiante.
+3. **student.inscription**: Para registrar el curso.
 4. **subject**: Para registrar todas las materias con sus unidades de crédito y descripción.
 
 # Instrucciones de Administración y Mantenimiento del Sistema
@@ -30,12 +30,12 @@ Odoo es un sistema muy flexible que permite crear diversos grupos de usuarios, a
 En el contexto de nuestra App, se crearon tres grupos de usuarios:
 
 1. **Profesores**: Tienen permisos de lectura dentro del sistema.
-2. **Asistentes y Administrativos**: Cualquier tercero que necesite colaborar dentro del sistema, como coordinadores.
+2. **Asistentes y Administrativos**: Cualquier tercero que necesite colaborar dentro del sistema como: coordinadores...
 3. **Coordinador Académico**: Tienen mayores permisos que los grupos anteriores.
 
 Además, se otorgaron permisos al grupo **Administrador de Sistema**, que tiene los más altos permisos.
 
-### Otras Consideraciones
+### Importante Recordar:
 
 Al crear estudiantes, profesores y cursos, es necesario marcar el campo `is_professor`/`is_student` o `is_course` para diferenciarlos correctamente en el sistema.
 
