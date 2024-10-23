@@ -37,7 +37,7 @@ Además, se otorgaron permisos al grupo **Administrador de Sistema**, que tiene 
 
 ### Importante Recordar:
 
-Al crear estudiantes, profesores y cursos, es necesario marcar el campo `is_professor`/`is_student` o `is_course` para diferenciarlos correctamente en el sistema.
+Al crear estudiantes, profesores y cursos, es necesario marcar el campo `is_professor`/`is_student` para diferenciarlos correctamente en el sistema.
 
 ### Mantenimiento:
 
